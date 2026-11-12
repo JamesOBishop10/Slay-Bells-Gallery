@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-color: #cccccc;
+    background-image: linear-gradient(120deg, #E0FFFF, #B1FFFF, #007FFF);
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif Arial, sans-serif;
+    color: #333;
+    margin: 20px 50px;
+}
+
+p,
+article {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px 50px;
+}
+
+ul,
+.main-navigation {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 50px 40px;
+    padding: 0;
+}
+
+
+/* card_1 image size: 960px by 540px */
+.card_1 {
+    /* width: 100%;*/
+    /*max-width: 400px;*/
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* card_2 image size: 980px by 559px */
+.card_2 {
+    /* width: 100%;*/
+    /*max-width: 400px;*/
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* card_3 image size: 943px by 525px */
+.card_3 {
+    /* width: 100%;*/
+    /*max-width: 400px;*/
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* card_4 image size: 963px by 539px */
+.card_4 {
+
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* card_5 image size: 964px by 559px */
+.card_5 {
+
+    margin: 15px auto;
+    border: 1px solid #460b0b;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* card_6 image size: 1920px by 264px */
+.card_6 {
+
+    margin: 20px auto;
+    border: 1px solid #0f06b7;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 8px 0px rgba(238, 37, 37, 0.1);
+}
+
+/* card_7 image size: 1920px by 224px */
+.card_7 {
+
+    margin: 20px auto;
+    border: 2px dashed #9aa9a3;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e1eaf2;
+
+    border: 1px solid #bc9191;
+}
+
+.f-paragraph {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+/* 
+ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+} */
